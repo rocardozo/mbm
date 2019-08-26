@@ -1,0 +1,49 @@
+/*ESTILOS BODY*/
+body {
+	background: #BC0000;
+}
+
+h2 {
+	font-family: Enriqueta;
+	color: white;
+}
+
+h6 {
+	color: #E89A94;
+	font-family: Open Sans;
+}
+
+/*MENU*/
+.menu > hr {
+	border-top: 1px white solid;
+}
+
+/*EMPRESA*/
+.empresa_imagen {
+
+}
+
+.empresa_cuerpo > p {
+	font-family: Open Sans;
+	color: white;
+	line-height: 25pt;
+}
+
+.empresa_cuerpo > hr {
+	border-top: 1px white solid;
+}
+
+/*ESTILOS FOOTER*/
+#footer{
+	background: black;
+	position: relative;
+	bottom: 0;	
+	width: 100%;
+	height: 130px;
+	color: white;
+	font-family: Open Sans; 
+}
+
+.iconos_footer {
+	color: white;
+}
