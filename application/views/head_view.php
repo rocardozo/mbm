@@ -21,6 +21,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!--agregamos Font Awesome-->
 	<script src="https://kit.fontawesome.com/c0c1c755a2.js"></script>
 
+	<!--Agregamos Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Enriqueta|Open+Sans&display=swap" rel="stylesheet">
+	
+	<link rel="shortcut icon" href="<?=base_url();?>assets/img/mbm.ico">
 	<title>MBM Sistemas</title>
 
 </head>

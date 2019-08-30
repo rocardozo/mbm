@@ -1,11 +1,11 @@
-<div class="container">
-	<div class="row">
+<div class="container pb-5">
+	<div class="row pb-3">
 		<div class="col-md-3 empresa_imagen">
 			<img class="pt-5" src="<?=base_url();?>/assets/img/mundo.gif">
 		</div>
 
 		<div class="col-md-9 pt-5 pl-5 pb-5 empresa_cuerpo">
-			<h2>Empresa</h2>
+			<h2 class="titulo">Empresa</h2>
 			<hr>
 			<p>Somos una empresa con presencia en el mercado desde 1990, orientada a brindar soluciones integrales para el sector de las Nuevas Tecnologías de la Información y Comunicación.<br>
 			Desde nuestro inicio, hemos consolidado nuestra solvencia y posición, gracias al esfuerzo constante y la capacidad de mejorar día tras día.<br>

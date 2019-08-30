@@ -1,16 +1,26 @@
 /*ESTILOS BODY*/
 body {
-	background: #BC0000;
+	background: #A30B14;
 }
 
 h2 {
-	font-family: Enriqueta;
+	font-family: 'Enriqueta', serif;
+	font-size: 25px;
+	color: white;
+}
+
+.titulo {
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
 	color: white;
 }
 
 h6 {
 	color: #E89A94;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /*MENU*/
@@ -18,20 +28,134 @@ h6 {
 	border-top: 1px white solid;
 }
 
+.nav-item > a {
+	color: white !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.nav-item > a:hover {
+	color: black !important;
+}
+
+.activo > a {
+	color: black !important;
+}
+
+
 /*EMPRESA*/
 .empresa_imagen {
 
 }
 
 .empresa_cuerpo > p {
-	font-family: Open Sans;
-	color: white;
-	line-height: 25pt;
+	font-family: 'Open Sans', sans-serif;
+	color: #E89A94;
+	font-size: 14px;
+	text-align: justify;
 }
 
 .empresa_cuerpo > hr {
 	border-top: 1px white solid;
 }
+
+
+/*SERVICIOS*/
+.servicios_titulo > hr {
+	border-top: solid 1px white;
+}
+
+.servicios_cuerpo > p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #E89A94;
+	text-align: justify;
+}
+
+.servicios_cuerpo > h2 {
+	text-align: center;
+}
+
+.servicios_cuerpo > h6 {
+	color: white;
+}
+
+.servicios_cuerpo > ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.servicios_cuerpo ul > li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #E89A94;
+}
+
+.servicios_icono {
+	color: black;
+	padding-right: 10px;
+}
+
+
+/*SOLUCIONES*/
+.soluciones_titulo > hr {
+	border-top: solid 1px white;
+}
+
+.soluciones_cuerpo > p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #E89A94;
+}
+
+.soluciones_cuerpo > h6 {
+	color: white;
+}
+
+
+
+/*ESTILOS CONTACTO*/
+.mapa {
+	border-radius: 5px;
+}
+
+.formulario {
+	background-color: #272525;
+	color: white !important;
+	border: none;
+	font-weight: bold;
+}
+
+.formulario:focus {
+	background-color: black;
+	/*border: white solid 1px;*/
+}
+
+.formulario::-webkit-input-placeholder { color: white; }
+.formulario::-moz-placeholder { color: white; } /* firefox 19+ */
+.formulario:-ms-input-placeholder { color: white; } /* ie */
+.formulario input:-moz-placeholder { color: white; }
+
+/*.formulario_boton {
+	background: #8F060E;
+	color: grey;
+	font-weight: bold;
+}*/
+
+.formulario_boton {
+	background-color: black;
+	color: white;
+}
+
+.formulario_boton:hover {
+	background-color: #272525;
+	color: white;
+	font-weight: bold;
+}
+
+
+
 
 /*ESTILOS FOOTER*/
 #footer{
@@ -39,9 +163,8 @@ h6 {
 	position: relative;
 	bottom: 0;	
 	width: 100%;
-	height: 130px;
 	color: white;
-	font-family: Open Sans; 
+	font-family: 'Open Sans', sans-serif; 
 }
 
 .iconos_footer {
