@@ -137,12 +137,6 @@ h6 {
 .formulario:-ms-input-placeholder { color: white; } /* ie */
 .formulario input:-moz-placeholder { color: white; }
 
-/*.formulario_boton {
-	background: #8F060E;
-	color: grey;
-	font-weight: bold;
-}*/
-
 .formulario_boton {
 	background-color: black;
 	color: white;
@@ -153,7 +147,6 @@ h6 {
 	color: white;
 	font-weight: bold;
 }
-
 
 
 

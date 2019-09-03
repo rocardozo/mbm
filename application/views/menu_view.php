@@ -7,20 +7,6 @@
 			</div>
 
 			<div class="col-md-9 menu" >
-				<!-- <ul class="nav justify-content-end">
-				  <li class="nav-item">
-				    <a class="nav-link active" href="<?=base_url()?>welcome/">EMPRESA</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="<?=base_url()?>welcome/servicios">SERVICIOS</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="<?=base_url()?>welcome/soluciones">SOLUCIONES</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="<?=base_url()?>welcome/contacto">CONTACTO</a>
-				  </li>
-				</ul> -->
 
 				<nav class="navbar navbar-expand-lg navbar-light">
 				  <!-- <a class="navbar-brand" href="<?=base_url();?>welcome/"><img src="<?=base_url();?>/assets/img/mbm.gif"></a> -->
